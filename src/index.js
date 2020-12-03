@@ -4,7 +4,6 @@ import ApolloClient from 'apollo-boost'
 import { ApolloProvider } from '@apollo/react-hooks';
 
 import App from './App';
-import './index.css';
 
 const client = new ApolloClient({
   uri: 'https://7sgx4.sse.codesandbox.io'
